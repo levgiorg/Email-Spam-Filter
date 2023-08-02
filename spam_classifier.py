@@ -8,7 +8,7 @@ from sklearn.metrics import classification_report, confusion_matrix
 import string
 
 # Load the data
-data = pd.read_csv("mails.csv")
+data = pd.read_csv("emails.csv")
 
 # Function to process the text
 def process_text(text):
